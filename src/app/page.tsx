@@ -1,3 +1,9 @@
+import Todos from "@/components/todos/Todos";
+
 export default function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <Todos />
+    </div>
+  );
 }
